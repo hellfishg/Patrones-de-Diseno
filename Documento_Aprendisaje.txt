@@ -14,3 +14,17 @@ SINGLETON:
 
 FABRICA:
 	Patron de creacion, util para cuando se quiere crear distintos tipos de objetos pero con la misma implementacion de metodos. Como en el caso de una coneccion que sirva para multiples bases de datos, se puede crear una fabrica que construya una coneccion especifica depende la BDD, pero que use los mismos llamados y para su funcionamiento generico.
+
+Builder:
+	Patron parecido al frabric, solo que es el cliente el que determina que tipo de "fabrica" se va usar para crear el objeto.
+
+Prototipo:
+	Se usa cuando se necesita copiar un objeto sin afectar el objeto original en tiempo de ejecucion.
+	en java puede usarse la interfase "cloneable".
+
+Proxy:
+	Se usa cuando se necesita un intermediario para controlar la comunicacion desde otros objetos.
+	Tambien se puede usar cuando un objeto necesita informar la carga de informacion pesada. se usa un proxy para mantener al usuario informado de lo que va sucediendo.
+
+	Voy a trabajar con hilos de ejecucion.
+
